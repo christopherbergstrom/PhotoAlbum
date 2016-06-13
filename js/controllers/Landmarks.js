@@ -1,40 +1,20 @@
-app.controller("MainController", ["$scope", function($scope)
+app.controller("Landmarks", ["$scope", function($scope)
 {
   $scope.landmarks = [
     {
-      name: "Test1",
-      image: "../../images/test1",
+      name: "Statue of Liberty",
+      image: "images/statueOfLiberty.jpg",
       desc: "testing 1"
     },
     {
-      name: "Test2",
-      image: "../../images/test2",
+      name: "Mount Rushmore",
+      image: "images/mountRushmore.jpg",
       desc: "testing 2"
     },
     {
-      name: "Test2",
-      image: "../../images/test2",
+      name: "Eiffel Tower",
+      image: "images/eiffelTower.jpg",
       desc: "testing 2"
-    },
-    {
-      name: "Test2",
-      image: "../../images/test2",
-      desc: "testing 2"
-    },
-    {
-      name: "Test2",
-      image: "../../images/test2",
-      desc: "testing 2"
-    },
-    {
-      name: "Test2",
-      image: "../../images/test2",
-      desc: "testing 2"
-    },
-    {
-      name: "Test3",
-      image: "../../images/test3",
-      desc: "testing 3"
     }
   ];
 }]);

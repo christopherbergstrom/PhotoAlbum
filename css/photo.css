@@ -1,52 +1,64 @@
 #menu
 {
-	position: fixed;
-	top: 0px;
-	right: 0px;
-	font-size: 1.2em;
+  position: fixed;
+  list-style-type: none;
+  /*margin-top: 5%;*/
+  padding: 0;
+  width: 15%;
+  height: 100%;
+  overflow: auto;
   z-index: 1000;
+  font-size: 1.2em;
 }
-ul
+.link
 {
-	position: fixed;
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-	overflow: hidden;
-	top: 0px;
-}
-li
-{
-  float: left;
-  display: inline-block;
-  text-align: center;
-  padding: 14px 16px;
+  display: block;
+  color: #088060;
+  padding: 8px 0 8px 16px;
   text-decoration: none;
+}
+.link:hover
+{
+  color: white;
+  background-color: #088060;
 }
 .title
 {
   position: fixed;
   top: 0;
   left: 0;
-  font-size: 1.2em;
-  padding: 1%;
-  width: 100%;
+  bottom: 0;
+  font-size: 1.5em;
+  padding-top: 1%;
+  width: 15%;
+  height: 100%;
   float: left;
   color: white;
   background-color: black;
   opacity: .9;
-}
-.link
-{
-  color: #088060;
-  text-decoration: none;
-}
-.link:hover
-{
-  color: white;
+  text-align: center;
 }
 #main
 {
   position: relative;
-  margin-top: 10%;
+  margin-left: 15%;
+  margin-top: 5%;
+  text-align: center;
+}
+.item
+{
+  position: relative;
+  width: 80%;
+  left: 10%;
+  margin-bottom: 10%;
+}
+img
+{
+  width: 100%;
+  height: auto;
+}
+.name
+{
+  /*text-align: center;*/
+  font-size: 2em;
 }
