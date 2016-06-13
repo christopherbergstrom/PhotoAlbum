@@ -12,17 +12,16 @@
   </head>
   <body ng-app="myApp">
     <ul id="menu">
-      <li><a class="link" href = "photo.html">home</a></li>
-      <li><a class="link" href = "landmarks.html">landmarks</a></li>
-      <li><a class="link" href = "nature.html">nature</a></li>
-      <li><a class="link" href = "statues.html">statues</a></li>
+      <li class="title">Photo Album</li>
+      <li><a class = "res" href = "photo.html">home</a></li>
+      <li><a class = "res" href = "landmarks.html">landmarks</a></li>
+      <li><a class = "port" href = "nature.html">nature</a></li>
+      <li><a class = "cont" href = "statues.html">statues</a></li>
     </ul>
-    <div class="title">Photo Album</div>
-    <div id="main" ng-controller="MainController">
-      <button ng-click="toggleFullScreen()">Toggle Full Screen</button>
+    <div id="main" ng-controller="Landmarks">
       <div ng-repeat="landmark in landmarks">
         <div>
-          <!-- <img ng-src="{{landmark.image}}"> -->
+          <img ng-src="{{landmark.image}}">
           <p>{{landmark.name}}</p>
           <p>{{landmark.desc}}</p>
         </div>

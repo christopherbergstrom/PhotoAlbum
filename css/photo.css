@@ -1,0 +1,52 @@
+#menu
+{
+	position: fixed;
+	top: 0px;
+	right: 0px;
+	font-size: 1.2em;
+  z-index: 1000;
+}
+ul
+{
+	position: fixed;
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	top: 0px;
+}
+li
+{
+  float: left;
+  display: inline-block;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+.title
+{
+  position: fixed;
+  top: 0;
+  left: 0;
+  font-size: 1.2em;
+  padding: 1%;
+  width: 100%;
+  float: left;
+  color: white;
+  background-color: black;
+  opacity: .9;
+}
+.link
+{
+  color: #088060;
+  text-decoration: none;
+}
+.link:hover
+{
+  color: white;
+}
+#main
+{
+  position: relative;
+  margin-top: 10%;
+}
