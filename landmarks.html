@@ -20,8 +20,8 @@
     <div id="main" ng-controller="Landmarks">
       <div ng-repeat="landmark in landmarks">
         <div class="item">
-          <img ng-src="{{landmark.image}}">
-          <p class="name">{{landmark.name}}</p>
+          <img ng-src="{{landmark.image}}" fullscreen>
+          <div class="name">{{landmark.name}}</div>
           <!-- <p>{{landmark.desc}}</p> -->
         </div>
       </div>

@@ -50,15 +50,20 @@
   position: relative;
   width: 80%;
   left: 10%;
-  margin-bottom: 10%;
+  margin-bottom: 15%;
 }
 img
 {
   width: 100%;
   height: auto;
 }
+img:hover
+{
+  cursor: pointer;
+}
 .name
 {
   /*text-align: center;*/
-  font-size: 2em;
+  padding-top: 1%;
+  font-size: 4em;
 }
