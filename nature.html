@@ -8,21 +8,28 @@
     <script src="js/app.js"></script>
 
     <!-- Controllers -->
-    <script src="js/controllers/MainController.js"></script>
+    <script src="js/controllers/Nature.js"></script>
   </head>
   <body ng-app="myApp">
     <ul id="menu">
-      <li><a class="link" href = "landmarks.html">landmarks</a></li>
-      <li><a class="link" href = "nature.html">nature</a></li>
-      <li><a class="link" href = "statues.html">statues</a></li>
+      <li><a class="landmarks" href = "landmarks.html">landmarks</a></li>
+      <li><a class="buildings" href = "buildings.html">buildings</a></li>
+      <li><a class="nature" href = "nature.html">nature</a></li>
+      <li><a class="statues" href = "statues.html">statues</a></li>
+      <li><a class="animals" href = "animals.html">animals</a></li>
+      <li><a class="flowers" href = "flowers.html">flowers</a></li>
+      <li><a class="mountains" href = "mountains.html">mountains</a></li>
+      <li><a class="sunsets" href = "sunsets.html">sunsets</a></li>
+      <li><a class="beaches" href = "beaches.html">beaches</a></li>
+      <li><a class="cars" href = "cars.html">cars</a></li>
+      <li><a class="space" href = "space.html">space</a></li>
     </ul>
     <div class="title">Photo Album</div>
-    <div id="main" ng-controller="Landmarks">
-      <div ng-repeat="landmark in landmarks">
+    <div id="main" ng-controller="Nature">
+      <div ng-repeat="nat in nature">
         <div class="item">
-          <img ng-src="{{landmark.image}}">
-          <p>{{landmark.name}}</p>
-          <p>{{landmark.desc}}</p>
+          <img ng-src="{{nat.image}}">
+          <p>{{nat.name}}</p>
         </div>
       </div>
     </div>

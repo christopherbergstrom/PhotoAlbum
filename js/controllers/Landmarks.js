@@ -17,4 +17,14 @@ app.controller("Landmarks", ["$scope", function($scope)
       desc: "testing 2"
     }
   ];
+  $scope.toggleFullScreen = function(img)
+  {
+    // var elem = document.getElementById("myvideo");
+    if (img.requestFullscreen)
+    {
+      img.requestFullscreen();
+    }
+    // this.style.width="100%";
+    // this.style.height="100%";
+  };
 }]);

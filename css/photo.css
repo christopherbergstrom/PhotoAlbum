@@ -10,17 +10,110 @@
   z-index: 1000;
   font-size: 1.2em;
 }
-.link
+li a
 {
   display: block;
-  color: #088060;
   padding: 8px 0 8px 16px;
   text-decoration: none;
 }
-.link:hover
+.landmarks
+{
+  color: #663300;
+}
+.landmarks:hover
+{
+  color: white;
+  background-color: #663300;
+}
+.buildings
+{
+  color: #cca300;
+}
+.buildings:hover
+{
+  color: white;
+  background-color: #cca300;
+}
+.nature
+{
+  color: #088060;
+}
+.nature:hover
 {
   color: white;
   background-color: #088060;
+}
+.statues
+{
+  color: #808080;
+}
+.statues:hover
+{
+  color: white;
+  background-color: #808080;
+}
+.animals
+{
+  color: #e67300;
+}
+.animals:hover
+{
+  color: white;
+  background-color: #e67300;
+}
+.flowers
+{
+  color: #b30086;
+}
+.flowers:hover
+{
+  color: white;
+  background-color: #b30086;
+}
+.mountains
+{
+  color: #0052cc;
+}
+.mountains:hover
+{
+  color: white;
+  background-color: #0052cc;
+}
+.sunsets
+{
+  color: #cc2900;
+}
+.sunsets:hover
+{
+  color: white;
+  background-color: #cc2900;
+}
+.beaches
+{
+  color: #ffcc66;
+}
+.beaches:hover
+{
+  color: white;
+  background-color: #ffcc66;
+}
+.cars
+{
+  color: #b30000;
+}
+.cars:hover
+{
+  color: white;
+  background-color: #b30000;
+}
+.space
+{
+  color: white;
+}
+.space:hover
+{
+  color: black;
+  background-color: white;
 }
 .title
 {
@@ -60,6 +153,8 @@ img
 img:hover
 {
   cursor: pointer;
+  /*width: 100%;*/
+  /*height: 100%;*/
 }
 .name
 {

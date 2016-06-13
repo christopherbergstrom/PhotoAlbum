@@ -12,17 +12,24 @@
   </head>
   <body ng-app="myApp">
     <ul id="menu">
-      <li><a class="link" href = "landmarks.html">landmarks</a></li>
-      <li><a class="link" href = "nature.html">nature</a></li>
-      <li><a class="link" href = "statues.html">statues</a></li>
+      <li><a class="landmarks" href = "landmarks.html">landmarks</a></li>
+      <li><a class="buildings" href = "buildings.html">buildings</a></li>
+      <li><a class="nature" href = "nature.html">nature</a></li>
+      <li><a class="statues" href = "statues.html">statues</a></li>
+      <li><a class="animals" href = "animals.html">animals</a></li>
+      <li><a class="flowers" href = "flowers.html">flowers</a></li>
+      <li><a class="mountains" href = "mountains.html">mountains</a></li>
+      <li><a class="sunsets" href = "sunsets.html">sunsets</a></li>
+      <li><a class="beaches" href = "beaches.html">beaches</a></li>
+      <li><a class="cars" href = "cars.html">cars</a></li>
+      <li><a class="space" href = "space.html">space</a></li>
     </ul>
     <div class="title">Photo Album</div>
     <div id="main" ng-controller="Landmarks">
       <div ng-repeat="landmark in landmarks">
         <div class="item">
-          <img ng-src="{{landmark.image}}" fullscreen>
+          <img ng-src="{{landmark.image}}" ng-click="toggleFullScreen(img)">
           <div class="name">{{landmark.name}}</div>
-          <!-- <p>{{landmark.desc}}</p> -->
         </div>
       </div>
     </div>

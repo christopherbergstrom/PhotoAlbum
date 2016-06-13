@@ -1,6 +1,6 @@
-app.controller("Buildings", ["$scope", function($scope)
+app.controller("Cars", ["$scope", function($scope)
 {
-  $scope.buildings = [
+  $scope.cars = [
     {
       name: "Test1",
       image: "images/test1",

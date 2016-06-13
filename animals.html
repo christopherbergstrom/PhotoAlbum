@@ -8,7 +8,7 @@
     <script src="js/app.js"></script>
 
     <!-- Controllers -->
-    <script src="js/controllers/Statues.js"></script>
+    <script src="js/controllers/Animals.js"></script>
   </head>
   <body ng-app="myApp">
     <ul id="menu">
@@ -25,11 +25,11 @@
       <li><a class="space" href = "space.html">space</a></li>
     </ul>
     <div class="title">Photo Album</div>
-    <div id="main" ng-controller="Statues">
-      <div ng-repeat="statue in statues">
+    <div id="main" ng-controller="Animals">
+      <div ng-repeat="animal in animals">
         <div class="item">
-          <img ng-src="{{statue.image}}">
-          <p>{{statue.name}}</p>
+          <img ng-src="{{animal.image}}">
+          <p>{{animal.name}}</p>
         </div>
       </div>
     </div>
