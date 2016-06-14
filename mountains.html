@@ -1,6 +1,7 @@
 <!doctype html>
 <html>
   <head>
+    <link rel="icon" href="../images/favicon.ico" type="image/ico" sizes="16x16"/>
     <link rel="stylesheet" type="text/css" href="css/normalize.css" />
     <link rel="stylesheet" type="text/css" href="css/photo.css" />
     <script src="http://ajax.googleapis.com/ajax/libs/angularjs/1.4.8/angular.min.js"></script>
@@ -29,7 +30,8 @@
       <div ng-repeat="mountains in mountains">
         <div class="item">
           <img ng-src="{{mountain.image}}">
-          <p>{{mountain.name}}</p>
+          <div class="name">{{mountain.name}}</div>
+          <div class="loc">{{mountain.loc}}</div>
         </div>
       </div>
     </div>

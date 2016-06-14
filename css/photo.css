@@ -1,8 +1,15 @@
+body
+{
+  font-family: sans-serif;
+}
+#space
+{
+  background-color: black;
+}
 #menu
 {
   position: fixed;
   list-style-type: none;
-  /*margin-top: 5%;*/
   padding: 0;
   width: 15%;
   height: 100%;
@@ -160,5 +167,25 @@ img:hover
 {
   /*text-align: center;*/
   padding-top: 1%;
-  font-size: 4em;
+  font-size: 3em;
+}
+.loc
+{
+  /*text-align: center;*/
+  padding-top: 1%;
+  font-size: 2em;
+}
+.spName
+{
+  /*text-align: center;*/
+  padding-top: 1%;
+  color: white;
+  font-size: 3em;
+}
+.spLoc
+{
+  /*text-align: center;*/
+  color: white;
+  padding-top: 1%;
+  font-size: 2em;
 }

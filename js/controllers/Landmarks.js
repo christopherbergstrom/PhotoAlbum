@@ -2,19 +2,29 @@ app.controller("Landmarks", ["$scope", function($scope)
 {
   $scope.landmarks = [
     {
+      name: "Colosseum",
+      image: "images/landmarks/colosseum.jpg",
+      loc: "Rome, Italy"
+    },
+    {
+      name: "Pyramids of Giza",
+      image: "images/landmarks/pyramids.jpg",
+      loc: "Egypt"
+    },
+    {
       name: "Statue of Liberty",
-      image: "images/statueOfLiberty.jpg",
-      desc: "testing 1"
+      image: "images/landmarks/statueOfLiberty.jpg",
+      loc: "New York, New York"
     },
     {
       name: "Mount Rushmore",
-      image: "images/mountRushmore.jpg",
-      desc: "testing 2"
+      image: "images/landmarks/mountRushmore.jpg",
+      loc: "Keystone, South Dakota"
     },
     {
       name: "Eiffel Tower",
-      image: "images/eiffelTower.jpg",
-      desc: "testing 2"
+      image: "images/landmarks/eiffelTower.jpg",
+      loc: "Paris, France"
     }
   ];
   $scope.toggleFullScreen = function(img)
